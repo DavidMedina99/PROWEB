@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#1111">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Main.html">UNI Games</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+      <li class="active"><a href="Main.html"> <img src="C:\Users\David\Desktop\Avance de Proyecto\Images\Home.png" alt="La wea fome" width="40"
+height="40"> Home</a></li>
+
+      <li><a href="Notifications.html"><img src="C:\Users\David\Desktop\Avance de Proyecto\Images\Megafono.png" alt="La wea fome" width="40"
+height="40"> Notifications</a></li>
+
+      <li><a href="Profile.html"> <img src="C:\Users\David\Desktop\Avance de Proyecto\Images\Perfil.png" alt="La wea fome" width="40"
+height="40"> Profile</a></li>
+
+      <li><a href="Search.html"><img src="C:\Users\David\Desktop\Avance de Proyecto\Images\Search.png" alt="La wea fome" width="40"
+height="40"> Search</a></li>
+    </ul>
+  </div>
+</nav>
+  
+  
+<div class="container">
+
+
+
+<form>
+  <div> 
+
+    </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Type a new password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Type the password again to confirm</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+     <p style="text-align:left;">Check email for confirmation of reset on password.</p>
+
+
+  <a href="file:///C:/Users/David/Desktop/Avance%20de%20Proyecto/Main.html" target= "_blank">
+
+    <a class="btn btn-primary" href="Email.html" role="button">Submit</a>
+
+  </a>
+
+<a class="btn btn-primary" href="LogIn.html" role="button">Back</a>
+
+  </a>
+ 
+
+</form>
+
+
+</body>
+</html>
